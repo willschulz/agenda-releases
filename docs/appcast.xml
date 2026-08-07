@@ -3,6 +3,22 @@
     <channel>
         <title>Agenda</title>
         <item>
+            <title>0.3.3</title>
+            <pubDate>Fri, 07 Aug 2026 19:55:30 -0400</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Agenda 0.3.3
+
+- Fixes startup failures remaining on “Starting local Agenda…” until a manual
+  refresh.
+- Missing-server and occupied-port errors now appear automatically with their
+  recovery actions.
+]]></description>
+            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.3.3/Agenda-0.3.3-arm64.dmg" length="44891551" type="application/octet-stream" sparkle:edSignature="ORaYKA5Wq2OssnJhOT4dtzKu4tN4NskEK3FdyMlwBykLACnDSw4JHWXdsJAP0g2LiJaZw1sVMcTQ1HYAMIVvDA=="/>
+        </item>
+        <item>
             <title>0.3.2</title>
             <pubDate>Fri, 07 Aug 2026 19:20:55 -0400</pubDate>
             <sparkle:version>4</sparkle:version>
@@ -29,28 +45,6 @@ This small follow-up verifies the new automatic update channel end to end.
 It contains the same user-facing safety and support improvements as 0.3.0.
 ]]></description>
             <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.3.1/Agenda-0.3.1-arm64.dmg" length="44902896" type="application/octet-stream" sparkle:edSignature="vO8YvimLlKFM5M3QKctKFWTgP/eOu/MIZ6rrArQk30wbEBjDeXJf5loV3y+/tRuMweRBnJlwVdiR6u7nIqlMCQ=="/>
-        </item>
-        <item>
-            <title>0.3.0</title>
-            <pubDate>Fri, 07 Aug 2026 11:47:54 -0400</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Agenda 0.3.0
-
-This release establishes the shared update and support channel.
-
-- Adds automatic local database snapshots on startup and every six hours.
-- Shows actionable diagnostics and a retry button if the embedded server
-  cannot start.
-- Adds **Report a Problem** with version and recent server logs prefilled.
-- Adds **Check for Updates** and automatic updates powered by Sparkle.
-
-Agenda 0.2.0 cannot update itself, so 0.3.0 is the final release that needs to
-be installed manually. Future releases can update in place.
-]]></description>
-            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.3.0/Agenda-0.3.0-arm64.dmg" length="44906194" type="application/octet-stream" sparkle:edSignature="xuZ+HNACxTH8tDiLvko1STQKF90YZnVBjadNfKhgCxJa9YqFQSWLYlEbscBAOb05euRdj7H8DCmRxFlgcW+nCw=="/>
         </item>
     </channel>
 </rss>
