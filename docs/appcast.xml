@@ -22,7 +22,7 @@ This release establishes the shared update and support channel.
 Agenda 0.2.0 cannot update itself, so 0.3.0 is the final release that needs to
 be installed manually. Future releases can update in place.
 ]]></description>
-            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.3.0/Agenda-0.3.0-arm64.dmg" length="44858542" type="application/octet-stream" sparkle:edSignature="Q/jiWz7e5Hwwopw9fny926ojWzirD3EpVzZX4ziN43NGf/cp8DTmLVcul5kGgmz2qZUmZac7xdVOX284l+tyAg=="/>
+            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.3.0/Agenda-0.3.0-arm64.dmg" length="44906194" type="application/octet-stream" sparkle:edSignature="xuZ+HNACxTH8tDiLvko1STQKF90YZnVBjadNfKhgCxJa9YqFQSWLYlEbscBAOb05euRdj7H8DCmRxFlgcW+nCw=="/>
         </item>
     </channel>
 </rss>
