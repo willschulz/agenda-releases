@@ -3,6 +3,23 @@
     <channel>
         <title>Agenda</title>
         <item>
+            <title>0.7.0</title>
+            <pubDate>Sat, 08 Aug 2026 18:40:14 -0400</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Agenda 0.7.0
+
+- Makes Agenda fully local-first: no third-party model calls or provider API keys.
+- Removes the retired assistant sidebar and detail-suggestion controls.
+- Keeps Apple-local title shortening and Agenda Pulse, with deterministic fallbacks.
+- Removes the retired OpenAI credential from the login Keychain on first launch.
+- Preserves historical assistant and suggestion records in the local database without exposing them.
+]]></description>
+            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.7.0/Agenda-0.7.0-arm64.dmg" length="44888224" type="application/octet-stream" sparkle:edSignature="XGzJ+J5wb0+M/vQwS8+76BsN2qOJCC5J9ca51RvV5IOnmYnafVqgMaUxZB8/U20hV+gARZCTzxTUo2w0BXcNCw=="/>
+        </item>
+        <item>
             <title>0.6.0</title>
             <pubDate>Sat, 08 Aug 2026 15:59:13 -0400</pubDate>
             <sparkle:version>9</sparkle:version>
@@ -44,25 +61,6 @@ Agenda now has a clean local/frontier AI boundary.
   server during startup.
 ]]></description>
             <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.5.0/Agenda-0.5.0-arm64.dmg" length="45589448" type="application/octet-stream" sparkle:edSignature="l3QOXcSWmCnglUa66A/5I2P9W5IZ7MztNtMWpfQjFOKzi3WddaW2lmL8T0ui+uYLc28Fz06BmgtlITQoU+MKDg=="/>
-        </item>
-        <item>
-            <title>0.4.0</title>
-            <pubDate>Fri, 07 Aug 2026 22:07:17 -0400</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Agenda 0.4.0
-
-- Adds a privacy-safe agent integration pack for Cursor and Claude Code,
-  available from **Settings → Reveal Agent Integration Pack…**.
-- Adds related-todo search guidance and portable pickup/closeout rules while
-  preserving human ownership of task status and review decisions.
-- Publishes the agent pack as a separate ZIP beside the Agenda DMG.
-- Moves bug reports to the public Agenda release tracker without attaching
-  local server logs automatically.
-]]></description>
-            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.4.0/Agenda-0.4.0-arm64.dmg" length="45423900" type="application/octet-stream" sparkle:edSignature="ZocSgP/Ulb5jqnsQ7MmTak8vX/NaN9sxNMzZRKr9oeJyUJOudS1YeA9LDfGKICTB3691IqPON4wntgj6vkYECw=="/>
         </item>
     </channel>
 </rss>
