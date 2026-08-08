@@ -3,6 +3,27 @@
     <channel>
         <title>Agenda</title>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Fri, 07 Aug 2026 23:59:06 -0400</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Agenda 0.5.0
+
+- Uses Apple’s on-device Foundation Models framework first when shortening long
+  todo descriptions on supported Macs.
+- Enforces a deterministic title contract: one line, at most eight words and
+  60 characters, with `FR:`, `BUG:`, and `NIT:` prefixes preserved.
+- Keeps the full original todo description in its context notes.
+- Falls back to configured remote providers and then safe local truncation when
+  the on-device model is unavailable.
+- Prevents a delayed Keychain lookup from blocking Agenda’s window and local
+  server during startup.
+]]></description>
+            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.5.0/Agenda-0.5.0-arm64.dmg" length="45589448" type="application/octet-stream" sparkle:edSignature="l3QOXcSWmCnglUa66A/5I2P9W5IZ7MztNtMWpfQjFOKzi3WddaW2lmL8T0ui+uYLc28Fz06BmgtlITQoU+MKDg=="/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Fri, 07 Aug 2026 22:07:17 -0400</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -36,22 +57,6 @@
   be disabled and re-enabled reliably.
 ]]></description>
             <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.3.4/Agenda-0.3.4-arm64.dmg" length="44907509" type="application/octet-stream" sparkle:edSignature="u2J3lmVo+fkjUJ9kQQskzFNdEXka4lfnOULwvYKk6RNPSrE/g0GNIWxwoz8lY4w1M3N7lROS1BuOAA//YGKqAA=="/>
-        </item>
-        <item>
-            <title>0.3.3</title>
-            <pubDate>Fri, 07 Aug 2026 19:55:30 -0400</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.3.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Agenda 0.3.3
-
-- Fixes startup failures remaining on “Starting local Agenda…” until a manual
-  refresh.
-- Missing-server and occupied-port errors now appear automatically with their
-  recovery actions.
-]]></description>
-            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.3.3/Agenda-0.3.3-arm64.dmg" length="44891551" type="application/octet-stream" sparkle:edSignature="ORaYKA5Wq2OssnJhOT4dtzKu4tN4NskEK3FdyMlwBykLACnDSw4JHWXdsJAP0g2LiJaZw1sVMcTQ1HYAMIVvDA=="/>
         </item>
     </channel>
 </rss>
