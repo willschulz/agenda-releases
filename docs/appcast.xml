@@ -3,6 +3,28 @@
     <channel>
         <title>Agenda</title>
         <item>
+            <title>0.6.0</title>
+            <pubDate>Sat, 08 Aug 2026 15:59:13 -0400</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Agenda 0.6.0
+
+Agenda now has a clean local/frontier AI boundary.
+
+- Removed the legacy LLM service URL and its tailnet dependency.
+- Kept concise todo titles local-first with Apple Foundation Models, optional
+  OpenAI fallback, and deterministic fallback.
+- Moved clarifying detail suggestions to the optional frontier provider with
+  strict structured-output validation.
+- Reported title, detail-suggestion, and assistant capabilities independently
+  so unavailable controls stay hidden.
+- Removed the retired service URL from existing app preferences automatically.
+]]></description>
+            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.6.0/Agenda-0.6.0-arm64.dmg" length="45583074" type="application/octet-stream" sparkle:edSignature="1cuURPGuZjjrAMmjXn0ifbkmb+EFD965OSt2LgjldKU/QVNoskRofHxDpXkzbjsKcMZAzlk1JLi3FoITMKwdDQ=="/>
+        </item>
+        <item>
             <title>0.5.0</title>
             <pubDate>Fri, 07 Aug 2026 23:59:06 -0400</pubDate>
             <sparkle:version>8</sparkle:version>
@@ -41,22 +63,6 @@
   local server logs automatically.
 ]]></description>
             <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.4.0/Agenda-0.4.0-arm64.dmg" length="45423900" type="application/octet-stream" sparkle:edSignature="ZocSgP/Ulb5jqnsQ7MmTak8vX/NaN9sxNMzZRKr9oeJyUJOudS1YeA9LDfGKICTB3691IqPON4wntgj6vkYECw=="/>
-        </item>
-        <item>
-            <title>0.3.4</title>
-            <pubDate>Fri, 07 Aug 2026 21:36:24 -0400</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Agenda 0.3.4
-
-- Fixes “Launch Agenda at login” showing “Installed app not found” on a fresh
-  installation.
-- Login-item registration now handles macOS's initial not-found state and can
-  be disabled and re-enabled reliably.
-]]></description>
-            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.3.4/Agenda-0.3.4-arm64.dmg" length="44907509" type="application/octet-stream" sparkle:edSignature="u2J3lmVo+fkjUJ9kQQskzFNdEXka4lfnOULwvYKk6RNPSrE/g0GNIWxwoz8lY4w1M3N7lROS1BuOAA//YGKqAA=="/>
         </item>
     </channel>
 </rss>
