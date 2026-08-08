@@ -3,6 +3,25 @@
     <channel>
         <title>Agenda</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Fri, 07 Aug 2026 22:07:17 -0400</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Agenda 0.4.0
+
+- Adds a privacy-safe agent integration pack for Cursor and Claude Code,
+  available from **Settings → Reveal Agent Integration Pack…**.
+- Adds related-todo search guidance and portable pickup/closeout rules while
+  preserving human ownership of task status and review decisions.
+- Publishes the agent pack as a separate ZIP beside the Agenda DMG.
+- Moves bug reports to the public Agenda release tracker without attaching
+  local server logs automatically.
+]]></description>
+            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.4.0/Agenda-0.4.0-arm64.dmg" length="45423900" type="application/octet-stream" sparkle:edSignature="ZocSgP/Ulb5jqnsQ7MmTak8vX/NaN9sxNMzZRKr9oeJyUJOudS1YeA9LDfGKICTB3691IqPON4wntgj6vkYECw=="/>
+        </item>
+        <item>
             <title>0.3.4</title>
             <pubDate>Fri, 07 Aug 2026 21:36:24 -0400</pubDate>
             <sparkle:version>6</sparkle:version>
@@ -33,20 +52,6 @@
   recovery actions.
 ]]></description>
             <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.3.3/Agenda-0.3.3-arm64.dmg" length="44891551" type="application/octet-stream" sparkle:edSignature="ORaYKA5Wq2OssnJhOT4dtzKu4tN4NskEK3FdyMlwBykLACnDSw4JHWXdsJAP0g2LiJaZw1sVMcTQ1HYAMIVvDA=="/>
-        </item>
-        <item>
-            <title>0.3.2</title>
-            <pubDate>Fri, 07 Aug 2026 19:20:55 -0400</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Agenda 0.3.2
-
-- Fixes the task and project deletion buttons in the native Mac app.
-- Destructive actions now show a native confirmation sheet before deleting.
-]]></description>
-            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.3.2/Agenda-0.3.2-arm64.dmg" length="44786471" type="application/octet-stream" sparkle:edSignature="GLTm9ariTLVSYH/IasRecdmdnAUCpyzrt7ymBdS28iQD7kF75frzHb3tvqODsAox2vh0MseHXPdG7aTuY/YxDA=="/>
         </item>
     </channel>
 </rss>
