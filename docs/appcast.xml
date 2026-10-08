@@ -3,6 +3,27 @@
     <channel>
         <title>Agenda</title>
         <item>
+            <title>0.9.0</title>
+            <pubDate>Thu, 08 Oct 2026 15:09:43 -0400</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Agenda 0.9.0
+
+- Uses a rounded Mac app icon in the Dock and Finder.
+- Adds a Recents menu for recently touched todos.
+- Shows a todo's id above its title on hover.
+- Evens out spacing between single-line and multi-line titles.
+- Keeps lab-note links readable in dark mode.
+- Opens note links in Chrome.
+- Moves Add todo into each project card, inserts a new todo at the top of its group, and lets you insert one between existing tasks.
+- Keeps the new-todo field focused after you add a task, and types into search when the board is filtered.
+- Fixes a freeze after rearranging tasks and lag after status clicks.
+]]></description>
+            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.9.0/Agenda-0.9.0-arm64.dmg" length="52353551" type="application/octet-stream" sparkle:edSignature="aJtS3sduzCObdD7hS1iucxnYmkAcfT1+T6CWGu05V4iapBtThc7PRkOaZwMS38sMoVKEfOZTCwsfR4kW0f7pBg=="/>
+        </item>
+        <item>
             <title>0.8.0</title>
             <pubDate>Sun, 09 Aug 2026 00:49:27 -0400</pubDate>
             <sparkle:version>11</sparkle:version>
@@ -36,28 +57,6 @@
 - Preserves historical assistant and suggestion records in the local database without exposing them.
 ]]></description>
             <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.7.0/Agenda-0.7.0-arm64.dmg" length="44888224" type="application/octet-stream" sparkle:edSignature="XGzJ+J5wb0+M/vQwS8+76BsN2qOJCC5J9ca51RvV5IOnmYnafVqgMaUxZB8/U20hV+gARZCTzxTUo2w0BXcNCw=="/>
-        </item>
-        <item>
-            <title>0.6.0</title>
-            <pubDate>Sat, 08 Aug 2026 15:59:13 -0400</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Agenda 0.6.0
-
-Agenda now has a clean local/frontier AI boundary.
-
-- Removed the legacy LLM service URL and its tailnet dependency.
-- Kept concise todo titles local-first with Apple Foundation Models, optional
-  OpenAI fallback, and deterministic fallback.
-- Moved clarifying detail suggestions to the optional frontier provider with
-  strict structured-output validation.
-- Reported title, detail-suggestion, and assistant capabilities independently
-  so unavailable controls stay hidden.
-- Removed the retired service URL from existing app preferences automatically.
-]]></description>
-            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.6.0/Agenda-0.6.0-arm64.dmg" length="45583074" type="application/octet-stream" sparkle:edSignature="1cuURPGuZjjrAMmjXn0ifbkmb+EFD965OSt2LgjldKU/QVNoskRofHxDpXkzbjsKcMZAzlk1JLi3FoITMKwdDQ=="/>
         </item>
     </channel>
 </rss>
