@@ -3,6 +3,21 @@
     <channel>
         <title>Agenda</title>
         <item>
+            <title>0.10.1</title>
+            <pubDate>Thu, 05 Nov 2026 18:33:04 -0500</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Agenda 0.10.1
+
+- Delivers the optional effort points setting (Settings → Effort points) to anyone who installed an early copy of 0.10.0 that was missing it. Your points stay on, and switching them off never deletes points you've set.
+
+Everything else in this release is described in the 0.10.0 notes: https://github.com/willschulz/agenda-releases/releases/tag/v0.10.0
+]]></description>
+            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.10.1/Agenda-0.10.1-arm64.dmg" length="52219127" type="application/octet-stream" sparkle:edSignature="x7rwpea64olXQ942vv0GPCcl/QWKXMcdVMCwXUkV8ySjiosDIwXwrJPk+3DvGCDanxvq/5Bur7s4biKJ0te1BA=="/>
+        </item>
+        <item>
             <title>0.10.0</title>
             <pubDate>Thu, 05 Nov 2026 17:08:08 -0500</pubDate>
             <sparkle:version>13</sparkle:version>
@@ -46,24 +61,6 @@ Agenda is now open source under the GPL: https://github.com/willschulz/agenda
 - Fixes a freeze after rearranging tasks and lag after status clicks.
 ]]></description>
             <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.9.0/Agenda-0.9.0-arm64.dmg" length="52353551" type="application/octet-stream" sparkle:edSignature="aJtS3sduzCObdD7hS1iucxnYmkAcfT1+T6CWGu05V4iapBtThc7PRkOaZwMS38sMoVKEfOZTCwsfR4kW0f7pBg=="/>
-        </item>
-        <item>
-            <title>0.8.0</title>
-            <pubDate>Sun, 09 Aug 2026 00:49:27 -0400</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Agenda 0.8.0
-
-- Adds a past-day accomplishments view to the header timeline.
-- Keeps the overview intentionally compact: project names plus task and point counts.
-- Expands each project on click to show its exact completed tasks.
-- Supports internal scrolling for long accomplishment days.
-- Improves Agenda Pulse placement and gives stale items a distinct yellow treatment.
-- Uses a standard gear icon for Settings.
-]]></description>
-            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.8.0/Agenda-0.8.0-arm64.dmg" length="44834483" type="application/octet-stream" sparkle:edSignature="Aw3pt6wp9SDb9kFRdnSosMkj8TKDsOIabsVakXkU0Z/d+XEDx9yystSvnbDO6Oc8ltqFbiZHK5XTAm/JIfxVAQ=="/>
         </item>
     </channel>
 </rss>
