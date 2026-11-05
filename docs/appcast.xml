@@ -3,6 +3,29 @@
     <channel>
         <title>Agenda</title>
         <item>
+            <title>0.10.0</title>
+            <pubDate>Thu, 05 Nov 2026 17:08:08 -0500</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Agenda 0.10.0
+
+Agenda is now open source under the GPL: https://github.com/willschulz/agenda
+
+- Edit your board's rows: Settings → Edit Rows lets you rename, add, reorder, and delete rows. Deleting a row asks which row its projects should move to.
+- New boards open a short welcome tour and start with Correspondence, Life Stuff, and Work Miscellany in Top of Mind.
+- Usage-limit dials show how fast you're using your Claude and Cursor subscription limits, for whichever tools you use.
+- AI usage now shows each project's share by tool. You can also record what you pay for each tool and see that cost split across projects.
+- Search finds todos by task number (#123 or 123).
+- Clicking a todo's hover number copies its #id and short title.
+- Hovering the right side of the gap between two todos inserts a subtask under the todo above.
+- Removes the agent-pickup and lookup copy buttons from todo cards.
+- Before an update changes your database's structure, Agenda now saves a backup of it first. This update does that once, when it converts your rows to the new editable format.
+]]></description>
+            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.10.0/Agenda-0.10.0-arm64.dmg" length="52218469" type="application/octet-stream" sparkle:edSignature="0Lcffgbi8DmwHM8F3PhNLhImbysGo3/8HtN1whwJ1INBwASLWdeU9cU5YAQFKjFZeM5b6i2+XUqGbPYQvkLBBQ=="/>
+        </item>
+        <item>
             <title>0.9.0</title>
             <pubDate>Thu, 08 Oct 2026 15:09:43 -0400</pubDate>
             <sparkle:version>12</sparkle:version>
@@ -40,23 +63,6 @@
 - Uses a standard gear icon for Settings.
 ]]></description>
             <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.8.0/Agenda-0.8.0-arm64.dmg" length="44834483" type="application/octet-stream" sparkle:edSignature="Aw3pt6wp9SDb9kFRdnSosMkj8TKDsOIabsVakXkU0Z/d+XEDx9yystSvnbDO6Oc8ltqFbiZHK5XTAm/JIfxVAQ=="/>
-        </item>
-        <item>
-            <title>0.7.0</title>
-            <pubDate>Sat, 08 Aug 2026 18:40:14 -0400</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Agenda 0.7.0
-
-- Makes Agenda fully local-first: no third-party model calls or provider API keys.
-- Removes the retired assistant sidebar and detail-suggestion controls.
-- Keeps Apple-local title shortening and Agenda Pulse, with deterministic fallbacks.
-- Removes the retired OpenAI credential from the login Keychain on first launch.
-- Preserves historical assistant and suggestion records in the local database without exposing them.
-]]></description>
-            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.7.0/Agenda-0.7.0-arm64.dmg" length="44888224" type="application/octet-stream" sparkle:edSignature="XGzJ+J5wb0+M/vQwS8+76BsN2qOJCC5J9ca51RvV5IOnmYnafVqgMaUxZB8/U20hV+gARZCTzxTUo2w0BXcNCw=="/>
         </item>
     </channel>
 </rss>
