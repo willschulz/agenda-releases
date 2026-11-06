@@ -3,6 +3,20 @@
     <channel>
         <title>Agenda</title>
         <item>
+            <title>0.10.3</title>
+            <pubDate>Thu, 05 Nov 2026 20:34:55 -0500</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.10.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Agenda 0.10.3
+
+- Pinch the trackpad to zoom the whole board out, so more of it fits on screen. It zooms in steps from today's size down to 40%, and everything shrinks together like an optical zoom. ⌘− and ⌘= also zoom, and ⌘0 or the small percentage badge in the corner resets to 100%. Each Mac remembers its zoom.
+- Fixes a Pulse note (such as an overdue deadline) drawing on top of a todo's deadline clock.
+]]></description>
+            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.10.3/Agenda-0.10.3-arm64.dmg" length="52253375" type="application/octet-stream" sparkle:edSignature="30y/vULMhOcX95xRVfGRs5Ac4C4ckMi/3aN4/0K87s+XM9JZd1Im7FBwWz/P1YhVYUroqIINL/DVbfFPM0l1Dw=="/>
+        </item>
+        <item>
             <title>0.10.2</title>
             <pubDate>Thu, 05 Nov 2026 19:23:20 -0500</pubDate>
             <sparkle:version>15</sparkle:version>
@@ -31,30 +45,6 @@
 Everything else in this release is described in the 0.10.0 notes: https://github.com/willschulz/agenda-releases/releases/tag/v0.10.0
 ]]></description>
             <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.10.1/Agenda-0.10.1-arm64.dmg" length="52219127" type="application/octet-stream" sparkle:edSignature="x7rwpea64olXQ942vv0GPCcl/QWKXMcdVMCwXUkV8ySjiosDIwXwrJPk+3DvGCDanxvq/5Bur7s4biKJ0te1BA=="/>
-        </item>
-        <item>
-            <title>0.10.0</title>
-            <pubDate>Thu, 05 Nov 2026 17:08:08 -0500</pubDate>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Agenda 0.10.0
-
-Agenda is now open source under the GPL: https://github.com/willschulz/agenda
-
-- Edit your board's rows: Settings → Edit Rows lets you rename, add, reorder, and delete rows. Deleting a row asks which row its projects should move to.
-- New boards open a short welcome tour and start with Correspondence, Life Stuff, and Work Miscellany in Top of Mind.
-- Effort points are now optional (Settings → Effort points). With them off, every task counts as 1 and point badges are hidden. Your board keeps points on after this update, and switching them off never deletes points you've set.
-- Usage-limit dials show how fast you're using your Claude and Cursor subscription limits, for whichever tools you use.
-- AI usage now shows each project's share by tool. You can also record what you pay for each tool and see that cost split across projects.
-- Search finds todos by task number (#123 or 123).
-- Clicking a todo's hover number copies its #id and short title.
-- Hovering the right side of the gap between two todos inserts a subtask under the todo above.
-- Removes the agent-pickup and lookup copy buttons from todo cards.
-- Before an update changes your database's structure, Agenda now saves a backup of it first. This update does that once, when it converts your rows to the new editable format.
-]]></description>
-            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.10.0/Agenda-0.10.0-arm64.dmg" length="52220130" type="application/octet-stream" sparkle:edSignature="rB4qTCyPuAh8ECHE80Hw+U9UUTFdrF3IUjTIz54BUIBqOcfrMeKC6AUhaZCQebctytTXSnEv+nXK2Db/IvQ1AQ=="/>
         </item>
     </channel>
 </rss>
