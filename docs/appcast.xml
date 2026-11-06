@@ -3,6 +3,21 @@
     <channel>
         <title>Agenda</title>
         <item>
+            <title>0.10.2</title>
+            <pubDate>Thu, 05 Nov 2026 19:23:20 -0500</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.10.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Agenda 0.10.2
+
+- Finishing a task that has two or more sub-tasks now gets a small celebration at its checkbox, scaled to how many sub-tasks it had, plus a note of the count.
+- Days on which you finished such tasks get tiny marks above their dot in the progress bar (more marks for bigger tasks), and hovering the day lists them first.
+- Nothing about how tasks are counted has changed.
+]]></description>
+            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.10.2/Agenda-0.10.2-arm64.dmg" length="52222038" type="application/octet-stream" sparkle:edSignature="S4j4zouwYYGQqRN1qcZGyYX7WsvH09OTU4sQIvo+46NAkkmjk8QZ4+nclGP220oker0YJ7N5t0RVYLaiAoCTBQ=="/>
+        </item>
+        <item>
             <title>0.10.1</title>
             <pubDate>Thu, 05 Nov 2026 18:33:04 -0500</pubDate>
             <sparkle:version>14</sparkle:version>
@@ -40,27 +55,6 @@ Agenda is now open source under the GPL: https://github.com/willschulz/agenda
 - Before an update changes your database's structure, Agenda now saves a backup of it first. This update does that once, when it converts your rows to the new editable format.
 ]]></description>
             <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.10.0/Agenda-0.10.0-arm64.dmg" length="52220130" type="application/octet-stream" sparkle:edSignature="rB4qTCyPuAh8ECHE80Hw+U9UUTFdrF3IUjTIz54BUIBqOcfrMeKC6AUhaZCQebctytTXSnEv+nXK2Db/IvQ1AQ=="/>
-        </item>
-        <item>
-            <title>0.9.0</title>
-            <pubDate>Thu, 08 Oct 2026 15:09:43 -0400</pubDate>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Agenda 0.9.0
-
-- Uses a rounded Mac app icon in the Dock and Finder.
-- Adds a Recents menu for recently touched todos.
-- Shows a todo's id above its title on hover.
-- Evens out spacing between single-line and multi-line titles.
-- Keeps lab-note links readable in dark mode.
-- Opens note links in Chrome.
-- Moves Add todo into each project card, inserts a new todo at the top of its group, and lets you insert one between existing tasks.
-- Keeps the new-todo field focused after you add a task, and types into search when the board is filtered.
-- Fixes a freeze after rearranging tasks and lag after status clicks.
-]]></description>
-            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.9.0/Agenda-0.9.0-arm64.dmg" length="52353551" type="application/octet-stream" sparkle:edSignature="aJtS3sduzCObdD7hS1iucxnYmkAcfT1+T6CWGu05V4iapBtThc7PRkOaZwMS38sMoVKEfOZTCwsfR4kW0f7pBg=="/>
         </item>
     </channel>
 </rss>
