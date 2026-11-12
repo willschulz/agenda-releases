@@ -3,6 +3,20 @@
     <channel>
         <title>Agenda</title>
         <item>
+            <title>0.10.5</title>
+            <pubDate>Thu, 12 Nov 2026 16:51:45 -0500</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.10.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Agenda 0.10.5
+
+- The board refreshes with about half as much data. Todo notes now load once in the background and then only when they change, instead of being re-sent on every update. Search still covers notes; for the first second or so after Agenda opens, it matches todo titles only until notes have loaded.
+- Agents and scripts can request the lighter board with `GET /api/projects?todo_notes=summary` and fetch note text with `GET /api/todo-notes`. The default `/api/projects` response is unchanged.
+]]></description>
+            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.10.5/Agenda-0.10.5-arm64.dmg" length="52237347" type="application/octet-stream" sparkle:edSignature="ygSemcEOQXMHhURpWTFCnRTRauMGqtGLvJENeTjuBOhjV4sLPttEWvr+PNhcfxv3oiwD//UqwmmEEj83GJBCCw=="/>
+        </item>
+        <item>
             <title>0.10.4</title>
             <pubDate>Thu, 12 Nov 2026 12:27:06 -0500</pubDate>
             <sparkle:version>17</sparkle:version>
@@ -28,21 +42,6 @@
 - Fixes a Pulse note (such as an overdue deadline) drawing on top of a todo's deadline clock.
 ]]></description>
             <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.10.3/Agenda-0.10.3-arm64.dmg" length="52253375" type="application/octet-stream" sparkle:edSignature="30y/vULMhOcX95xRVfGRs5Ac4C4ckMi/3aN4/0K87s+XM9JZd1Im7FBwWz/P1YhVYUroqIINL/DVbfFPM0l1Dw=="/>
-        </item>
-        <item>
-            <title>0.10.2</title>
-            <pubDate>Thu, 05 Nov 2026 19:23:20 -0500</pubDate>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.10.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Agenda 0.10.2
-
-- Finishing a task that has two or more sub-tasks now gets a small celebration at its checkbox, scaled to how many sub-tasks it had, plus a note of the count.
-- Days on which you finished such tasks get tiny marks above their dot in the progress bar (more marks for bigger tasks), and hovering the day lists them first.
-- Nothing about how tasks are counted has changed.
-]]></description>
-            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.10.2/Agenda-0.10.2-arm64.dmg" length="52222038" type="application/octet-stream" sparkle:edSignature="S4j4zouwYYGQqRN1qcZGyYX7WsvH09OTU4sQIvo+46NAkkmjk8QZ4+nclGP220oker0YJ7N5t0RVYLaiAoCTBQ=="/>
         </item>
     </channel>
 </rss>
