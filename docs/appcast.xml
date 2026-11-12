@@ -3,6 +3,19 @@
     <channel>
         <title>Agenda</title>
         <item>
+            <title>0.10.4</title>
+            <pubDate>Thu, 12 Nov 2026 12:27:06 -0500</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.10.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Agenda 0.10.4
+
+- Fixes a memory leak that made Agenda slow down the longer it stayed open. Every time the board updated, it kept a hidden copy of the previous board in memory, so after a few days the app could use several gigabytes. On a busy Mac that showed up as lag, or as a blank window for a moment when switching back to Agenda. Memory now stays flat however long Agenda runs.
+]]></description>
+            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.10.4/Agenda-0.10.4-arm64.dmg" length="52295206" type="application/octet-stream" sparkle:edSignature="C6qdLaCqTcUlPcrJ6g8c2urpmHY4vauPQKicvBbImveKfxOyGHiTfefbtG0/xTj7904AmbnTCL0gNdN26pFzCw=="/>
+        </item>
+        <item>
             <title>0.10.3</title>
             <pubDate>Thu, 05 Nov 2026 20:34:55 -0500</pubDate>
             <sparkle:version>16</sparkle:version>
@@ -30,21 +43,6 @@
 - Nothing about how tasks are counted has changed.
 ]]></description>
             <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.10.2/Agenda-0.10.2-arm64.dmg" length="52222038" type="application/octet-stream" sparkle:edSignature="S4j4zouwYYGQqRN1qcZGyYX7WsvH09OTU4sQIvo+46NAkkmjk8QZ4+nclGP220oker0YJ7N5t0RVYLaiAoCTBQ=="/>
-        </item>
-        <item>
-            <title>0.10.1</title>
-            <pubDate>Thu, 05 Nov 2026 18:33:04 -0500</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Agenda 0.10.1
-
-- Delivers the optional effort points setting (Settings → Effort points) to anyone who installed an early copy of 0.10.0 that was missing it. Your points stay on, and switching them off never deletes points you've set.
-
-Everything else in this release is described in the 0.10.0 notes: https://github.com/willschulz/agenda-releases/releases/tag/v0.10.0
-]]></description>
-            <enclosure url="https://github.com/willschulz/agenda-releases/releases/download/v0.10.1/Agenda-0.10.1-arm64.dmg" length="52219127" type="application/octet-stream" sparkle:edSignature="x7rwpea64olXQ942vv0GPCcl/QWKXMcdVMCwXUkV8ySjiosDIwXwrJPk+3DvGCDanxvq/5Bur7s4biKJ0te1BA=="/>
         </item>
     </channel>
 </rss>
